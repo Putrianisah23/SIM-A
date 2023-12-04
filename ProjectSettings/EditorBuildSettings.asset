@@ -30,8 +30,20 @@ EditorBuildSettings:
     path: Assets/Scenes/studycase tanjakan.unity
     guid: b5dae2dfee5d1834aab523536471f14e
   - enabled: 1
-    path: Assets/Scenes/Jalan Raya.unity
+    path: Assets/Scenes/Pilih praktek.unity
+    guid: 0fe54ac40e667a84db0427ff6763e3b8
+  - enabled: 1
+    path: Assets/Scenes/rambu peringatan kondisi.unity
     guid: b702bba133c00f9428e7756e3a090628
+  - enabled: 1
+    path: Assets/Scenes/rambu tambahan.unity
+    guid: cb368592e65b36d4297032454bcdd73f
+  - enabled: 1
+    path: Assets/Scenes/rambu perintah.unity
+    guid: da4f275b85f5d6a4b8f32935886955c0
+  - enabled: 1
+    path: Assets/Scenes/rambu larangan berjalan terus.unity
+    guid: c4e490da37279b0458f762393afe7d46
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9d0e4439baeb40843a16727ff89574c7,
       type: 2}
