@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: ujicoba
+  productName: UJI SIM A(R)
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -139,6 +139,7 @@ PlayerSettings:
   bundleVersion: 0.1.0
   preloadedAssets:
   - {fileID: -7296636271226517615, guid: 9d0e4439baeb40843a16727ff89574c7, type: 2}
+  - {fileID: 11400000, guid: 40950d4254baba14ab4298d0754a9e87, type: 2}
   - {fileID: -6058169643540271771, guid: 67bb2dc37cae02a4d93208645a69e9b2, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -160,8 +161,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.ujicoba
-    Standalone: com.UnityTechnologies.com.unity.template.urp-blank
+    Android: com.DefaultCompany.UJISIMAR
+    Standalone: com.DefaultCompany.ujicoba
     iPhone: com.Unity-Technologies.com.unity.template.urp-blank
   buildNumber:
     Standalone: 0
@@ -170,7 +171,7 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 24
+  AndroidMinSdkVersion: 25
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 

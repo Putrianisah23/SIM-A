@@ -44,7 +44,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/rambu larangan berjalan terus.unity
     guid: c4e490da37279b0458f762393afe7d46
+  - enabled: 1
+    path: Assets/Scenes/Hand Tutor.unity
+    guid: c07aab32594fe8c4d8c00ff1b093a726
+  - enabled: 1
+    path: Assets/Scenes/tutor button.unity
+    guid: a07eba4d97afc0a4fac7e115934cf4be
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 40950d4254baba14ab4298d0754a9e87,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9d0e4439baeb40843a16727ff89574c7,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 67bb2dc37cae02a4d93208645a69e9b2,
