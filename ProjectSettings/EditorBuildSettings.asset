@@ -26,9 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/studycase parkir.unity
     guid: 3e5eaa8211d5b0140aec9da9e533b795
-  - enabled: 1
-    path: Assets/Scenes/studycase tanjakan.unity
-    guid: b5dae2dfee5d1834aab523536471f14e
+  - enabled: 0
+    path: Assets/Scenes/tanjakan studycase.unity
+    guid: 1c3a48f4b7702714dad555d8d3d126c3
   - enabled: 1
     path: Assets/Scenes/Pilih praktek.unity
     guid: 0fe54ac40e667a84db0427ff6763e3b8

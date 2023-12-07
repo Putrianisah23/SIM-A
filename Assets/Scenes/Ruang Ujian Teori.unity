@@ -12459,7 +12459,7 @@ MonoBehaviour:
         penumpang umum
       trueBox: 1
   - question: '3. Pada saat mengendarai kendaraan di jalan bebas hambatan/jalan tol,
-      Pengemudi dilarang melakukan hal-hal kecuali :'
+      Pengemudi dilarang melakukan hal-hal dibawah ini kecuali :i :'
     illustrationSprite: {fileID: 0}
     optionList:
     - answerText: Menggunakan bahu jalan untuk mendahului kendaraan lain
