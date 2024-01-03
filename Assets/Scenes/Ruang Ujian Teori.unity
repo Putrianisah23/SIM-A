@@ -780,6 +780,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &888698806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 888698807}
+  - component: {fileID: 888698809}
+  - component: {fileID: 888698808}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &888698807
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888698806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2201054798090758246}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -908, y: 6.6371}
+  m_SizeDelta: {x: 852.37, y: 774.33}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &888698808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888698806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 032022059a9a50c449cf2e0d0e8e228a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &888698809
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888698806}
+  m_CullTransparentMesh: 1
 --- !u!1 &935545564
 GameObject:
   m_ObjectHideFlags: 0
@@ -2961,7 +3036,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &766804129285050386
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5329,17 +5404,18 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3144295300457204998}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2006256102742423697}
   - {fileID: 2696609516280956049}
+  - {fileID: 888698807}
   m_Father: {fileID: 7702803503631586547}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -260, y: -146.00005}
+  m_AnchoredPosition: {x: 101, y: -146.00005}
   m_SizeDelta: {x: -630, y: -80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2231093301547725423
@@ -10441,7 +10517,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &5614781211315233345
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12452,12 +12528,12 @@ MonoBehaviour:
       trueBox: 0
     - answerText: Mobil penumpang perorangan dan mobil barang yang beratnya tidak
         melebihi 3500 Kg
-      trueBox: 0
+      trueBox: 1
     - answerText: Mobil penumpang perorangan dan mobil penumpang umum
       trueBox: 0
     - answerText: Mobil penumpang perorangan, mobil barang perorangan, dan mobil
         penumpang umum
-      trueBox: 1
+      trueBox: 0
   - question: '3. Pada saat mengendarai kendaraan di jalan bebas hambatan/jalan tol,
       Pengemudi dilarang melakukan hal-hal dibawah ini kecuali :'
     illustrationSprite: {fileID: 0}
@@ -12465,17 +12541,17 @@ MonoBehaviour:
     - answerText: Menggunakan bahu jalan untuk mendahului kendaraan lain
       trueBox: 0
     - answerText: Berhenti di bahu jalan pada saat keadaan darurat
-      trueBox: 0
+      trueBox: 1
     - answerText: 'Mengemudi dengan kecepatan melebihi ketentuan batas kecepatan '
       trueBox: 0
     - answerText: Berbalik arah
-      trueBox: 1
+      trueBox: 0
   - question: 4. Pada saat mengendarai kendaraan di jalan umum, manakah menurut anda
       pemakai jalan yang perlu mendapatkan perhatian dan kewaspadaan khusus?
     illustrationSprite: {fileID: 0}
     optionList:
     - answerText: Truk yang membawa muatan
-      trueBox: 1
+      trueBox: 0
     - answerText: Anak-anak yang bermain di jalanan
       trueBox: 1
     - answerText: Pengendara sepeda motor
@@ -12498,13 +12574,13 @@ MonoBehaviour:
     illustrationSprite: {fileID: 0}
     optionList:
     - answerText: Lampu tiga warna, lampu dua warna, lampu satu warna
-      trueBox: 0
+      trueBox: 1
     - answerText: Lampu tiga warna, lampu dua warna
       trueBox: 0
     - answerText: Lampu tiga warna, lampu satu warna
       trueBox: 0
     - answerText: Lampu dua warna, lampu satu warna
-      trueBox: 1
+      trueBox: 0
   - question: 7. Saat berkendara di jalan, faktor apa yang paling utama yang harus
       anda perhatikan dalam menentukan jarak aman antara kendaraan anda dan kendaraan
       di depan?
@@ -12522,9 +12598,9 @@ MonoBehaviour:
     illustrationSprite: {fileID: 0}
     optionList:
     - answerText: 4 macam bentuk
-      trueBox: 0
-    - answerText: 3 macam bentuk
       trueBox: 1
+    - answerText: 3 macam bentuk
+      trueBox: 0
     - answerText: 2 macam bentuk
       trueBox: 0
     - answerText: 5 macam bentuk
